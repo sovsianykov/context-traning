@@ -1,0 +1,16 @@
+.header-container {
+  width: 100%;
+  height: 600px;
+  margin: 80px auto;
+  padding: 10px;
+  background: darkgray;
+  .main-news {
+    border-radius: 5px;
+    border: 1px solid black;
+    color: darkred;
+    .main-news-txt {
+      padding: 10px;
+      color: black;
+    }
+  }
+}
