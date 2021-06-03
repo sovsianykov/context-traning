@@ -1,0 +1,17 @@
+.footer-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #3F51B5;
+  box-shadow: 0 0 3px #3F51B5;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+
+  .title {
+    margin-left: 40px;
+  }
+}

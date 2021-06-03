@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './styles.scss'
 import Navbar from "../Navbar";
 import Header from "../Header";
+import Main from "../Main";
+import Footer from "../Footer";
 
 class Home extends Component {
     render() {
@@ -9,6 +11,8 @@ class Home extends Component {
             <div>
                 <Navbar/>
                 <Header/>
+                <Main/>
+                <Footer/>
             </div>
         );
     }
